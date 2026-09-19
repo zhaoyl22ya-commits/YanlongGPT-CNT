@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+logs/
+
+# Model checkpoints
+checkpoint/
+checkpoint_sft/
+
+# Data files
+data/raw/
+data/processed/
+data/chunks/
+data/rag/
+
+# Temporary files
+*.tmp
+*.log

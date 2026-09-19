@@ -1,0 +1,39 @@
+E:\YanlongGPT\.venv\Scripts\python.exe E:\YanlongGPT\scripts\test_sft.py 
+device: cuda
+词表大小: 8000
+EOS: 3
+E:\YanlongGPT\scripts\test_sft.py:125: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(
+SFT模型加载完成
+==============================
+Question:
+How does catalyst particle size affect carbon nanotube growth?
+
+Answer:
+The paper used Fe ( CO ) 2 as the carbon source , ferrocene as a promoter . Ferrocene decompo ses on the iron surface to form Fe nanoparticles and grow s CNTs from the substrate ; in situ deposited catalyst particles were observed by TEM . At the same time , the iron particles are located at the tips of the CNTs , which is mainly distributed inside the CNT walls , forming larger - diameter tubes . This indicates that the carbon source supply rate determin es the catalytic activity of carbon atoms into the metal particles . The mechanism is that the carbon atom flux is proportional to the number of carbon atoms per unit area , so the carbon atom diffusion coefficient is reduced , and the carbon atom flux is lower than the carbon atom concentration is greater than that of carbon atoms per unit volume . Therefore , the carbon atom flux is about 0 . 5 – 1 . 6 times that of the iron catalyst , indicating that the carbon atom flux is higher than that of the iron catalyst . Therefore , the carbon atom flux is significantly affected by the
+==============================
+Question:
+How does temperature influence CNT structure and yield during CVD growth?
+
+Answer:
+The paper uses a quartz tube furnace , with the carrier gas ( about 10 cm ³/ min ) for 1 h . Ferrocene is used as the carbon source ; ferrocene decompo ses to produce iron nanoparticles , which serve as catalysts for CNT nucleation and growth . At high temperature , CNTs grow in the gas phase , forming an aerogel - like sock - like aerogel composed of double - walled or multi - walled CNTs . When the flow rate exceed s 500 sccm , the flow rate was ra ised to 100 mL / min , and the reaction time was stop ped , indicating that catalyst particles are not formed at the outlet . This process can be extended to the reactor inlet , but the temperature was lower ed , so the residence time must be bal anced by the carrier gas . The mechanism is that under low flow rates , the catalyst particle size distribution was relatively small , while the product was mainly located at the outlet . Therefore , temperature is key to obtain ing CNT quality and crystallinity .
+==============================
+Question:
+Why are Fe catalysts commonly used for carbon nanotube growth?
+
+Answer:
+The paper uses a floating catalyst CVD reactor , with ferrocene as the sulfur source and thiophene as the sulfur promoter . Ferrocene decompo ses at high temperature to produce iron nanoparticles ; these particles act as nucleation sites for CNT growth . When the sulfur is in sufficient , CNTs grow from the substrate by decomposition of hydrocarbons on the catalyst surface , forming larger - diameter tubes . At the same time , the product is mainly double - walled or multi - walled tubes ( about 10 nm ), which can be obtained by controlling the number of walls . In addition , the amount of sulfur increases , and the formation of amorphous carbon may also affect the size of SWCNTs . Therefore , the role of sulfur promo tes the formation of large - sized catalyst particles , thereby improving SWCNT yield .
+==============================
+Question:
+How can the G peak and D peak in Raman spectroscopy be used to evaluate CNT quality?
+
+Answer:
+The paper uses Raman spectra of the D band at 13 50 cm - 1 , with ID / IG = 0 . 05 , indicating that the G peak is related to defects . The D band is located at about 15 80 cm - 1 , corresponding to a high degree of graphitization ; the 2D peak at about 15 90 cm - 1 corresponds to disordered carbon ( 002 ) plane , which indicates the presence of amorphous carbon . The G peak appears at about 15 79 cm - 1 , indicating that the 2D peak is weak er than the 2D peak , indicating that the intensity ratio is not significant . This indicates that the G peak is related to disorder or defect state of sp2 carbon , while the G peak is related to defects and the 2D peak , indicating that the 2D peak is mainly related to the graphitic structure . The G peak is located at about 26 00 cm - 1 , reflect ing the formation of graphite layers and the G peak , indicating that the 2D peak is weak ened . Therefore , G peak is also
+==============================
+Question:
+How can CNT diameter be controlled through experimental conditions?
+
+Answer:
+The paper used a quartz tube reactor , with a total flow rate of 1 . 0 ml / min , and then the temperature was ra ised to 750 ° C in an Ar atmosphere ( about 10 mL / min ), and the furnace was cooled at 7 20 ° C for 2 h to remove iron particles ; after each other , it was carried out from room temperature to 900 ° C under H2 ( 100 sccm ) and held for 5 min , followed by cooling to room temperature to obtain uniform CNTs . At high temperature , ferrocene decompo ses on the catalyst surface to form Fe nanoparticles or clusters , which act as catalysts for CNT growth . After adding hydrogen , thiophene is introduced into the reaction zone , and the carbon source supply rate is increased to about 200 mL / min , while the carbon source concentration is below 1000 mg / min . This indicates that the catalyst can be reduced to 800 ° C , so the carbon source decomposition rate increases , but the carbon supply rate is significantly lower than the optimal value . Therefore ,
+
+Process finished with exit code 0
